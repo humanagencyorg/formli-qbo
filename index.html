@@ -54,6 +54,8 @@
   <link href="http://api.writesonic.com/static/images/webclip.png" rel="apple-touch-icon" />
   <script src="https://unpkg.com/feather-icons"></script>
   
+  <link rel="stylesheet" href="lightbox.css">
+  
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G28SL4Z6VP"></script>
 <script>
@@ -85,6 +87,10 @@
 </h1>
 <p class="text-lg text-center max-w-lg"> Stop paying transaction fees today.<br/> Offer your customers low fee payment alternatives with Formli.</p>
           <a href="#" class="button xl main mt-lg w-button"> Start accepting payments on your terms today.</a>
+          
+          <div id="lightbox" style="display: none;">
+            <iframe src="" frameborder="0" allowfullscreen></iframe>
+          </div>
           <div class="text-sm mt-md muted">
             14 day free trial • No credit card required
           </div>
@@ -261,6 +267,7 @@
   <script>
     feather.replace();
   </script>
+  <script src="lightbox.min.js"></script>
 </body>
 
 </html>
