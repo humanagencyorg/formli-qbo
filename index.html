@@ -99,7 +99,7 @@
           <h1 class="test-giga text-center">Simple Invoicing with Formli
 </h1>
 <p class="text-lg text-center max-w-lg"> Stop paying transaction fees today.<br/> Offer your customers low fee payment alternatives with Formli.</p>
-          <a href="#" class="button xl main mt-lg w-button"> Start accepting payments on your terms today.</a>
+          <button class="button xl main mt-lg w-button" onclick="openLightbox()">Start accepting payments on your terms today.</button>
           
           <div id="lightbox" style="display: none;">
             <iframe src="" frameborder="0" allowfullscreen></iframe>
@@ -282,6 +282,13 @@
   </script>
   <script src="lightbox.js"></script>
   <a href="https://app.formli.com/e/em918dggep/share?utm_source=source&utm_medium=medium&utm_campaign=campaign&utm_content=content&utm_term=term" data-ha-widget-trigger="xm0P6BQIuOIoff4dYUybx">Learn More</a>
+  <script>
+  function openLightbox() {
+    var lightbox = document.getElementById("lightbox");
+    lightbox.style.display = "block";
+  }
+</script>
+
 </body>
 
 </html>
