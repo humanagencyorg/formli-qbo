@@ -289,10 +289,11 @@
     feather.replace();
   </script>
   <script src="lightbox.js"></script>
-  <a href="https://app.formli.com/e/em918dggep/share?utm_source=source&utm_medium=medium&utm_campaign=campaign&utm_content=content&utm_term=term" data-ha-widget-trigger="xm0P6BQIuOIoff4dYUybx">Learn More</a>
   <script>
   function openLightbox() {
     var lightbox = document.getElementById("lightbox");
+    var iframe = lightbox.querySelector('iframe');
+    iframe.src = "https://app.formli.com/e/em918dggep/share";
     lightbox.style.display = "block";
   }
 </script>
